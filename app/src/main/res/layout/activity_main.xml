@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Pengklusteran Dengan Hirarki Alogritma"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/et_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:inputType="number"
+        android:hint="Masukkan Jumlah Target Cluster"/>
+
+    <Button
+        android:id="@+id/btn_proses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAKUKAN PROSES"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btn_variant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAKUKAN PROSES"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="#FFFFFF"/>
+
+
+
+    <Button
+        android:id="@+id/btn_eror"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HITUNG EROR"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="#FFFFFF"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_hasil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+</LinearLayout>
